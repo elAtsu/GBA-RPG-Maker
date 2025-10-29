@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBA RPG Maker Docs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+
+    <header>
+        <h1>GBA RPG Maker - Documentation</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#guide">Video guide</a></li>
+            <li><a href="#assets">Assets</a></li>
+            <li><a href="#reference">Actions</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><b><a href="./gbarpgmaker.html">Online tool</a></b></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="installation">
+            <h2>Installation</h2>
+            <p>Follow these steps to get started:</p>
+            <ol>
+                <li>Follow <a href="https://gvaliente.github.io/butano/getting_started.html"><b>Butano's installation
+                            guide</b></a>. This program is required to compile your project.</li>
+                <li>Install <a href=""><b>GBA RPG Maker's latest version</b></a>, run the portable version or open the
+                    <a href=""><b>web version.</b></a>
+                </li>
+                <li>Done!</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section id="assets">
+            <h2>Assets</h2>
+            <p>To make your own assets (graphics or audio) check out <b><a
+                        href="https://gvaliente.github.io/butano/import.html">Butano's Importing assets page</a></b>.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="reference">
+            <h2>Action Reference</h2>
+            <p>This are all the actions avaliable currently:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Description</th>
+                        <th>Parameters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Show Message</td>
+                        <td>Displays a textbox and prints a message on screen.</td>
+                        <td>Message</td>
+                    </tr>
+                    <tr>
+                        <td>Change Level</td>
+                        <td>Changes from one sreen to another.</td>
+                        <td>
+                            <ul>
+                                <li>Level</li>
+                                <li>Player's X position</li>
+                                <li>Player's Y position</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Stop Music</td>
+                        <td>Stops all sounds that are currently playing.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Play Music</td>
+                        <td>Plays a song on a loop.</td>
+                        <td>Music file</td>
+                    </tr>
+                    <tr>
+                        <td>Show/Hide Object</td>
+                        <td>Shows or hides the specified object.</td>
+                        <td>
+                            <ul>
+                                <li>Object's ID</li>
+                                <li>Show / Hide</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Show/Hide Object</td>
+                        <td>Shows or hides the player.</td>
+                        <td>Show / Hide</td>
+                    </tr>
+                    <tr>
+                        <td>Mini Menu</td>
+                        <td>Displays a menu with two options.</td>
+                        <td>
+                            <ul>
+                                <li>Option 1's text</li>
+                                <li>Option 2's text</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Start Battle</td>
+                        <td>Begins a battle with the specified enemy.</td>
+                        <td>Enemy</td>
+                    </tr>
+                    <tr>
+                        <td>Restore Health</td>
+                        <td>Restores set amount of health.</td>
+                        <td>Amount</td>
+                    </tr>
+                    <tr>
+                        <td>Restore Mana</td>
+                        <td>Restores set amount of mana.</td>
+                        <td>Amount</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="guide">
+            <h2>Video guide</h2>
+            <p>For a more in-depth tutorial on the tool, check out <b>the video guide</b>:
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/E4WlUXrJgy4?si=uF9bLgTOp_a_t-pp"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <article>
+                <h3>Is the program free?</h3>
+                <p>Yes, it is also <b>open source</b> under the zlib license.</p>
+            </article>
+            <article>
+                <h3>Can I update the generated code?</h3>
+                <p>Yes, you can edit the generated code to suit your needs and make your game better! Just remember that
+                    you'll need to learn some C++ first.</p>
+            </article>
+            <article>
+                <h3>How can I report a bug?</h3>
+                <p>If you find an error, please open an issue on the <a href="#">GitHub repository</a>.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GBA RPG Maker. Documentation generated on October 29, 2025.</p>
+    </footer>
+
+</body>
+
+</html>
