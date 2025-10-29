@@ -1,6 +1,10 @@
 # GBA RPG Maker
 A simple tool to make small RPGs for the Game Boy Advance without the need to code.
 
+![Screenshot of the version 0.1.0 of the tool](screenshot1.png)
+
+Background made by [DragonDePlatino](https://opengameart.org/content/zoria-tileset).
+
 ## Instalation
 Download and install [GValiente's Butano](https://gvaliente.github.io/butano/getting_started.html), this tool is necessary to compile your project.
 
