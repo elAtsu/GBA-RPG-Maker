@@ -5,6 +5,11 @@ A simple tool to make small RPGs for the Game Boy Advance without the need to co
 
 Background made by [DragonDePlatino](https://opengameart.org/content/zoria-tileset).
 
+# DISCLAIMER
+This tool used generative AI for things such as icons, UI and some code related to the interface.
+I tried making everything I could with the knowledge I had.
+The purpose of this tool is to help those who want to make games easily for the GBA, not to replace programmers.
+
 ## Instalation
 Download and install [GValiente's Butano](https://gvaliente.github.io/butano/getting_started.html), this tool is necessary to compile your project.
 
