@@ -2,6 +2,7 @@
 A simple tool to make small RPGs for the Game Boy Advance without the need to code.
 
 ![Screenshot of the version 0.1.0 of the tool](screenshot1.png)
+![Gameplay generated with the version 0.1.0 of the tool](gameplay.gif)
 
 Background made by [DragonDePlatino](https://opengameart.org/content/zoria-tileset).
 
